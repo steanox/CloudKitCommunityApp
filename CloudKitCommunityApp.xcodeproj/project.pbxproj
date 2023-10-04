@@ -11,6 +11,14 @@
 		7DD515092AB99ADB00DCA33D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD515082AB99ADB00DCA33D /* ContentView.swift */; };
 		7DD5150B2AB99ADD00DCA33D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD5150A2AB99ADD00DCA33D /* Assets.xcassets */; };
 		7DD5150F2AB99ADD00DCA33D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD5150E2AB99ADD00DCA33D /* Preview Assets.xcassets */; };
+		7DD515162AB99B6D00DCA33D /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD515152AB99B6D00DCA33D /* Community.swift */; };
+		7DD515182AB9A14F00DCA33D /* CommunityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD515172AB9A14F00DCA33D /* CommunityManager.swift */; };
+		7DF8BEC22ACBD3F800F9AD8A /* SharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8BEC12ACBD3F800F9AD8A /* SharingView.swift */; };
+		7DF8BEC42ACBDB3500F9AD8A /* CloudKitConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8BEC32ACBDB3500F9AD8A /* CloudKitConfiguration.swift */; };
+		7DF8BEC62ACC115D00F9AD8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8BEC52ACC115D00F9AD8A /* SceneDelegate.swift */; };
+		7DF8BEC82ACC11ED00F9AD8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8BEC72ACC11ED00F9AD8A /* AppDelegate.swift */; };
+		7DF8BECB2ACC2A1A00F9AD8A /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8BECA2ACC2A1A00F9AD8A /* testImage.png */; };
+		7DF8BECD2ACD182C00F9AD8A /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8BECC2ACD182C00F9AD8A /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		7DD5150A2AB99ADD00DCA33D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DD5150C2AB99ADD00DCA33D /* CloudKitCommunityApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitCommunityApp.entitlements; sourceTree = "<group>"; };
 		7DD5150E2AB99ADD00DCA33D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DD515152AB99B6D00DCA33D /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+		7DD515172AB9A14F00DCA33D /* CommunityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityManager.swift; sourceTree = "<group>"; };
+		7DF8BEC12ACBD3F800F9AD8A /* SharingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingView.swift; sourceTree = "<group>"; };
+		7DF8BEC32ACBDB3500F9AD8A /* CloudKitConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitConfiguration.swift; sourceTree = "<group>"; };
+		7DF8BEC52ACC115D00F9AD8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7DF8BEC72ACC11ED00F9AD8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DF8BECA2ACC2A1A00F9AD8A /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
+		7DF8BECC2ACD182C00F9AD8A /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +68,14 @@
 		7DD515052AB99ADB00DCA33D /* CloudKitCommunityApp */ = {
 			isa = PBXGroup;
 			children = (
-				7DD515062AB99ADB00DCA33D /* CloudKitCommunityAppApp.swift */,
+				7DF8BEC32ACBDB3500F9AD8A /* CloudKitConfiguration.swift */,
+				7DD515152AB99B6D00DCA33D /* Community.swift */,
+				7DF8BECC2ACD182C00F9AD8A /* Notes.swift */,
+				7DF8BEC92ACC120600F9AD8A /* App */,
 				7DD515082AB99ADB00DCA33D /* ContentView.swift */,
+				7DD515172AB9A14F00DCA33D /* CommunityManager.swift */,
+				7DF8BEC12ACBD3F800F9AD8A /* SharingView.swift */,
+				7DF8BECA2ACC2A1A00F9AD8A /* testImage.png */,
 				7DD5150A2AB99ADD00DCA33D /* Assets.xcassets */,
 				7DD5150C2AB99ADD00DCA33D /* CloudKitCommunityApp.entitlements */,
 				7DD5150D2AB99ADD00DCA33D /* Preview Content */,
@@ -67,6 +89,16 @@
 				7DD5150E2AB99ADD00DCA33D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DF8BEC92ACC120600F9AD8A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7DF8BEC52ACC115D00F9AD8A /* SceneDelegate.swift */,
+				7DF8BEC72ACC11ED00F9AD8A /* AppDelegate.swift */,
+				7DD515062AB99ADB00DCA33D /* CloudKitCommunityAppApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF8BECB2ACC2A1A00F9AD8A /* testImage.png in Resources */,
 				7DD5150F2AB99ADD00DCA33D /* Preview Assets.xcassets in Resources */,
 				7DD5150B2AB99ADD00DCA33D /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF8BEC82ACC11ED00F9AD8A /* AppDelegate.swift in Sources */,
+				7DD515162AB99B6D00DCA33D /* Community.swift in Sources */,
+				7DF8BEC62ACC115D00F9AD8A /* SceneDelegate.swift in Sources */,
+				7DD515182AB9A14F00DCA33D /* CommunityManager.swift in Sources */,
 				7DD515092AB99ADB00DCA33D /* ContentView.swift in Sources */,
+				7DF8BECD2ACD182C00F9AD8A /* Notes.swift in Sources */,
+				7DF8BEC22ACBD3F800F9AD8A /* SharingView.swift in Sources */,
 				7DD515072AB99ADB00DCA33D /* CloudKitCommunityAppApp.swift in Sources */,
+				7DF8BEC42ACBDB3500F9AD8A /* CloudKitConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
